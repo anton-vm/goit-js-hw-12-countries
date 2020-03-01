@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    display: block;
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    margin: 50px auto;
+}
+
+.country-block {
+    display: block;
+    margin: 20px auto;
+    width: 700px;
+    min-height: 300px;
+    border: 2px black
+    
+}
+
+.country-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    display: block;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.description-item {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.description-language {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.description-language_item {
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.flag {
+    margin: 10px;
+}
+
+.list-countries {
+    display: block;
+    width: 700px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+}
